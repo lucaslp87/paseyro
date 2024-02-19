@@ -1,0 +1,11 @@
+.card-image {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Puedes ajustar este valor según tus necesidades */
+    max-height: 250px; /* Puedes ajustar este valor según tus necesidades */
+    object-fit: cover; /* Esto asegura que la imagen se ajuste al contenedor sin distorsionarse */
+}
+
+.carousel-item{
+    max-height: 80vh;
+}
