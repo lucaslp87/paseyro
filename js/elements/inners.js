@@ -11,27 +11,27 @@ export const shopHTML=`
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 filtros">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Todo</a>
+                <a class="nav-link active" aria-current="page" name="todo" href="#">Todo</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Yerberas</a>
+                <a class="nav-link" name="yerberas" href="#">Yerberas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Canastas materas</a>
+                <a class="nav-link" name="canastas" href="#">Canastas materas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Mates</a>
+                <a class="nav-link" name="mates" href="#">Mates</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Termos</a>
+                <a class="nav-link" name="termos" href="#">Termos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Bombillas</a>
+                <a class="nav-link" name="bombillas" href="#">Bombillas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Yerba</a>
+                <a class="nav-link" name="yerba" href="#">Yerba</a>
             </li>
             
             </ul>
@@ -39,19 +39,20 @@ export const shopHTML=`
         </div>
     </div>
 </nav>
-<nav class="nav d-none d-md-flex nav-underline nav-fill">
-    <a class="nav-link text-dark active" aria-current="page" href="#">Todo</a>
-    <a class="nav-link text-dark" href="#">Yerberas</a>
-    <a class="nav-link text-dark" href="#">Canastas materas</a>
-    <a class="nav-link text-dark" href="#">Mates</a>
-    <a class="nav-link text-dark" href="#">Termos</a>
-    <a class="nav-link text-dark" href="#">Bombillas</a>
-    <a class="nav-link text-dark" href="#">Yerba</a>
+<nav class="nav d-none d-md-flex nav-underline nav-fill filtros">
+    <a class="nav-link text-dark active" aria-current="page" name="todo" href="#">Todo</a>
+    <a class="nav-link text-dark" name ="yerberas" href="#">Yerberas</a>
+    <a class="nav-link text-dark" name ="canastas" href="#">Canastas materas</a>
+    <a class="nav-link text-dark" name ="mates" href="#">Mates</a>
+    <a class="nav-link text-dark" name ="termos" href="#">Termos</a>
+    <a class="nav-link text-dark" name ="bombillas" href="#">Bombillas</a>
+    <a class="nav-link text-dark" name ="yerba" href="#">Yerba</a>
 
 </nav>
+<div class="grilla-productos"></div>
 `
 export const homeHTML=`
-<div class="container-fluid bg-light pt-3 mb-0 text-center"> 
+<div class="container-fluid pt-3 mb-0 text-center"> 
       <div class="row">
         <div class="col-lg-4 d-none d-lg-block text-center mb-3">
           <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -91,4 +92,83 @@ export const homeHTML=`
       </div>
     </div>
 `
-export const contactHTML=`11111111111111111`
+export const contactHTML=`
+<div class="card" style="width: 18rem;">
+  <img src="img/bombilla2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">CONTACTO</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+`
+export const todoHTML=`
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Todo</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+`
+export const yerberasHTML=`
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Yerberas</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+`
+export const canastasHTML=`
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Canastas</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+`
+export const matesHTML=`
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Mates</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+`
+export const termosHTML=`
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Termos</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+`
+export const bombillasHTML=`
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Bombillas</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+`
+export const yerbaHTML=`
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Yerba</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+`
