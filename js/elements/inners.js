@@ -72,7 +72,7 @@ export const homeHTML=`
         <div class="col-lg-8 text-center text-center fs-3">
           <div class="row my-3 py-5 mx-auto">
             <div class="col">
-              ¡Te damos la <b>bienvenida</b> a nuestro e-commerce de productos regionales! Encontrá todo lo que estas buscando, directo del productor a tu casa. 🛍️
+              ¡Te damos la <b>bienvenida</b> a nuestro e-commerce de productos regionales! Encontrá todo lo que estas buscando, directo del productor a tu casa.
             </div>
           </div>
           <div class="row">
@@ -80,14 +80,7 @@ export const homeHTML=`
               <button type="button" class=" btn btn-outline-dark btn-lg">¡Ir a la tienda!</button>
             </div>
           </div>
-          <div class="row">
-            <div class="col text-end  mt-5">
-              <button type="button" class=" btn btn-outline-danger"><i class="bi bi-instagram"></i></button>
-            </div>
-            <div class="col text-start  mt-5">
-              <button type="button" class=" btn btn-outline-success"><i class="bi bi-whatsapp"></i></button>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
