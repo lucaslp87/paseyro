@@ -86,25 +86,46 @@ export const homeHTML=`
     </div>
 `
 export const contactHTML=`
-<div class="card" style="width: 18rem;">
-  <img src="img/bombilla2.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">CONTACTO</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 text-center p-5 pe-md-1 mt-5 ">
+          <h3>Regalos corporativos</h3>
+          <p class="px-5 mt-3">¿Buscás hacer regalos para tu PyME o empresa? Envianos un mensaje para acceder a promociones empresariales y precios preferenciales.</p>
+          <img class="p-3 mt-4 img-fluid  " src="img/logo.png">
+        </div>
+        <div class="d-none d-md-flex col-md-2 align-items-center justify-content-center">
+          <div class="d-flex" style="height: 75vh;">
+            <div class="vr">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 text-center p-5 ps-md-1 mt-5">
+          <div class="row">
+            <h3>Nuestros canales de comunicación</h3>
+            <p class="px-5 mt-3">Nos gusta que te sientas acompañado antes, durante y después de tu compra, por eso te dejamos nuestras redes para que nos envies un mensaje ante cualquier duda que tengas.</p>
+          </div>
+          <div class="row p-3 mt-5">
+            <div class="col">
+              <button type="button" class=" btn btn-outline-danger">Instagram <i class="bi bi-instagram"></i></button>
+            </div>
+            <div class="col">
+              <button type="button" class=" btn btn-outline-success">Whatsapp <i class="bi bi-whatsapp"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 `
-export const todoHTML=`
+export const todoHTML= `
 <div class="card" style="width: 18rem;">
   <img src="..." class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Todo</h5>
+    <h5 class="card-title">Yerberas</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
-</div>
-`
+</div>`;
+
 export const yerberasHTML=`
 <div class="card" style="width: 18rem;">
   <img src="..." class="card-img-top" alt="...">

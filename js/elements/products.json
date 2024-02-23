@@ -1,0 +1,138 @@
+[
+    {
+        "id": 1,
+        "nombre": "Yerbera de cerámica",
+        "descripcion": "Yerbera de cerámica con diseño tradicional.",
+        "precio": 1200.00,
+        "imagen": "../img/yerbera1.jpg",
+        "categoria": "yerberas"
+    },
+    {
+        "id": 2,
+        "nombre": "Mate de calabaza",
+        "descripcion": "Mate tradicional hecho a mano con calabaza natural.",
+        "precio": 1500.00,
+        "imagen": "../img/mate1.jpg",
+        "categoria": "mates"
+    },
+    {
+        "id": 3,
+        "nombre": "Termo de acero inoxidable",
+        "descripcion": "Termo de acero inoxidable de alta calidad con capacidad de 1 litro.",
+        "precio": 2000.00,
+        "imagen": "../img/termo1.jpg",
+        "categoria": "termos"
+    },
+    {
+        "id": 4,
+        "nombre": "Bombilla de acero inoxidable",
+        "descripcion": "Bombilla de acero inoxidable con diseño clásico.",
+        "precio": 500.00,
+        "imagen": "../img/bombilla1.jpg",
+        "categoria": "bombillas"
+    },
+    {
+        "id": 5,
+        "nombre": "Bombilla de aluminio",
+        "descripcion": "Bombilla de aluminio de alta resistencia.",
+        "precio": 600.00,
+        "imagen": "../img/bombilla2.jpg",
+        "categoria": "bombillas"
+    },
+    {
+        "id": 6,
+        "nombre": "Canasta matera grande",
+        "descripcion": "Canasta matera grande tejida a mano.",
+        "precio": 1800.00,
+        "imagen": "../img/canasta1.jpg",
+        "categoria": "canastas"
+    },
+    {
+        "id": 7,
+        "nombre": "Canasta matera chica",
+        "descripcion": "Canasta matera pequeña tejida a mano.",
+        "precio": 1200.00,
+        "imagen": "../img/canasta2.jpg",
+        "categoria": "canastas"
+    },
+    {
+        "id": 8,
+        "nombre": "Mate de vidrio",
+        "descripcion": "Mate de vidrio resistente y elegante.",
+        "precio": 900.00,
+        "imagen": "../img/mate2.jpg",
+        "categoria": "mates"
+    },
+    {
+        "id": 9,
+        "nombre": "Mate de madera",
+        "descripcion": "Mate tallado a mano en madera de alta calidad.",
+        "precio": 1300.00,
+        "imagen": "../img/mate3.jpg",
+        "categoria": "mates"
+    },
+    {
+        "id": 10,
+        "nombre": "Mate de acero inoxidable",
+        "descripcion": "Mate moderno y duradero de acero inoxidable.",
+        "precio": 1100.00,
+        "imagen": "../img/mate4.jpg",
+        "categoria": "mates"
+    },
+    {
+        "id": 11,
+        "nombre": "Termo de acero inoxidable con bombilla",
+        "descripcion": "Termo de acero inoxidable con bombilla incorporada.",
+        "precio": 2500.00,
+        "imagen": "../img/termo2.jpg",
+        "categoria": "termos"
+    },
+    {
+        "id": 12,
+        "nombre": "Termo de plástico resistente",
+        "descripcion": "Termo de plástico resistente y fácil de transportar.",
+        "precio": 1500.00,
+        "imagen": "../img/termo3.jpg",
+        "categoria": "termos"
+    },
+    {
+        "id": 13,
+        "nombre": "Yerba orgánica premium",
+        "descripcion": "Yerba orgánica premium de la mejor calidad.",
+        "precio": 400.00,
+        "imagen": "../img/yerba1.jpg",
+        "categoria": "yerba"
+    },
+    {
+        "id": 14,
+        "nombre": "Yerbera de aluminio",
+        "descripcion": "Yerbera de aluminio con diseño moderno y funcional.",
+        "precio": 800.00,
+        "imagen": "../img/yerbera2.jpg",
+        "categoria": "yerberas"
+    },
+    {
+        "id": 15,
+        "nombre": "Yerbera de vidrio",
+        "descripcion": "Yerbera de vidrio con tapa hermética y diseño elegante.",
+        "precio": 1100.00,
+        "imagen": "../img/yerbera3.jpg",
+        "categoria": "yerberas"
+    },
+    {
+        "id": 16,
+        "nombre": "Yerbera de cerámica con tapa de madera",
+        "descripcion": "Yerbera de cerámica con tapa de madera natural.",
+        "precio": 1500.00,
+        "imagen": "../img/yerbera4.jpg",
+        "categoria": "yerberas"
+    },
+    {
+        "id": 17,
+        "nombre": "Yerbera de acero inoxidable",
+        "descripcion": "Yerbera de acero inoxidable con diseño moderno y resistente.",
+        "precio": 1700.00,
+        "imagen": "../img/yerbera5.jpg",
+        "categoria": "yerberas"
+    }
+]

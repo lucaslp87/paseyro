@@ -9,3 +9,9 @@
 .carousel-item{
     max-height: 75vh;
 }
+
+.card-img-top{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
