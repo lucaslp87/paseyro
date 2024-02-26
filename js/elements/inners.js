@@ -49,7 +49,7 @@ export const shopHTML=`
     <a class="nav-link text-dark" name ="yerba" href="#">Yerba</a>
 
 </nav>
-<div class="grilla-productos row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 overflow-x-hidden p-1 p-md-5"></div>
+<div class="grilla-productos row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 overflow-x-hidden p-1 p-md-3"></div>
 `
 export const homeHTML=`
 <div class="container-fluid pt-3 mb-0 text-center"> 
