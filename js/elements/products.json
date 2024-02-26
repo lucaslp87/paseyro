@@ -4,7 +4,7 @@
         "nombre": "Yerbera de cerámica",
         "descripcion": "Yerbera de cerámica con diseño tradicional.",
         "precio": 1200.00,
-        "imagen": "../img/yerbera1.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/yerbera1.jpg",
         "categoria": "yerberas"
     },
     {
@@ -12,7 +12,7 @@
         "nombre": "Mate de calabaza",
         "descripcion": "Mate tradicional hecho a mano con calabaza natural.",
         "precio": 1500.00,
-        "imagen": "../img/mate1.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/mate1.jpg",
         "categoria": "mates"
     },
     {
@@ -20,7 +20,7 @@
         "nombre": "Termo de acero inoxidable",
         "descripcion": "Termo de acero inoxidable de alta calidad con capacidad de 1 litro.",
         "precio": 2000.00,
-        "imagen": "../img/termo1.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/termo1.jpg",
         "categoria": "termos"
     },
     {
@@ -28,7 +28,7 @@
         "nombre": "Bombilla de acero inoxidable",
         "descripcion": "Bombilla de acero inoxidable con diseño clásico.",
         "precio": 500.00,
-        "imagen": "../img/bombilla1.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/bombilla1.jpg",
         "categoria": "bombillas"
     },
     {
@@ -36,7 +36,7 @@
         "nombre": "Bombilla de aluminio",
         "descripcion": "Bombilla de aluminio de alta resistencia.",
         "precio": 600.00,
-        "imagen": "../img/bombilla2.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/bombilla2.jpg",
         "categoria": "bombillas"
     },
     {
@@ -44,7 +44,7 @@
         "nombre": "Canasta matera grande",
         "descripcion": "Canasta matera grande tejida a mano.",
         "precio": 1800.00,
-        "imagen": "../img/canasta1.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/canasta1.jpg",
         "categoria": "canastas"
     },
     {
@@ -52,7 +52,7 @@
         "nombre": "Canasta matera chica",
         "descripcion": "Canasta matera pequeña tejida a mano.",
         "precio": 1200.00,
-        "imagen": "../img/canasta2.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/canasta2.jpg",
         "categoria": "canastas"
     },
     {
@@ -60,7 +60,7 @@
         "nombre": "Mate de vidrio",
         "descripcion": "Mate de vidrio resistente y elegante.",
         "precio": 900.00,
-        "imagen": "../img/mate2.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/mate2.jpg",
         "categoria": "mates"
     },
     {
@@ -68,7 +68,7 @@
         "nombre": "Mate de madera",
         "descripcion": "Mate tallado a mano en madera de alta calidad.",
         "precio": 1300.00,
-        "imagen": "../img/mate3.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/mate3.jpg",
         "categoria": "mates"
     },
     {
@@ -76,7 +76,7 @@
         "nombre": "Mate de acero inoxidable",
         "descripcion": "Mate moderno y duradero de acero inoxidable.",
         "precio": 1100.00,
-        "imagen": "../img/mate4.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/mate4.jpg",
         "categoria": "mates"
     },
     {
@@ -84,7 +84,7 @@
         "nombre": "Termo de acero inoxidable con bombilla",
         "descripcion": "Termo de acero inoxidable con bombilla incorporada.",
         "precio": 2500.00,
-        "imagen": "../img/termo2.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/termo2.jpg",
         "categoria": "termos"
     },
     {
@@ -92,7 +92,7 @@
         "nombre": "Termo de plástico resistente",
         "descripcion": "Termo de plástico resistente y fácil de transportar.",
         "precio": 1500.00,
-        "imagen": "../img/termo3.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/termo3.jpg",
         "categoria": "termos"
     },
     {
@@ -100,7 +100,7 @@
         "nombre": "Yerba orgánica premium",
         "descripcion": "Yerba orgánica premium de la mejor calidad.",
         "precio": 400.00,
-        "imagen": "../img/yerba.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/yerba.jpg",
         "categoria": "yerba"
     },
     {
@@ -108,7 +108,7 @@
         "nombre": "Yerbera de aluminio",
         "descripcion": "Yerbera de aluminio con diseño moderno y funcional.",
         "precio": 800.00,
-        "imagen": "../img/yerbera2.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/yerbera2.jpg",
         "categoria": "yerberas"
     },
     {
@@ -116,7 +116,7 @@
         "nombre": "Yerbera de vidrio",
         "descripcion": "Yerbera de vidrio con tapa hermética y diseño elegante.",
         "precio": 1100.00,
-        "imagen": "../img/yerbera3.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/yerbera3.jpg",
         "categoria": "yerberas"
     },
     {
@@ -124,7 +124,7 @@
         "nombre": "Yerbera de cerámica con tapa de madera",
         "descripcion": "Yerbera de cerámica con tapa de madera natural.",
         "precio": 1500.00,
-        "imagen": "../img/yerbera4.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/yerbera4.jpg",
         "categoria": "yerberas"
     },
     {
@@ -132,7 +132,7 @@
         "nombre": "Yerbera de acero inoxidable",
         "descripcion": "Yerbera de acero inoxidable con diseño moderno y resistente.",
         "precio": 1700.00,
-        "imagen": "../img/yerbera5.jpg",
+        "imagen": "../https://github.com/lucaslp87/paseyro/blob/main/img/yerbera5.jpg",
         "categoria": "yerberas"
     }
 ]
