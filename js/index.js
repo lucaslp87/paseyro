@@ -39,7 +39,7 @@
     }   
 
     function cargarTodo(grilla, card){
-        fetch('./js/elements/products.json')
+        fetch('https://raw.githubusercontent.com/lucaslp87/paseyro/main/js/elements/products.json')
                 .then ((response)=>response.json())
                 .then ((data)=>{
                     data.forEach(producto => {
@@ -89,7 +89,7 @@
                         if(e.target.name==='todo'){
                             cargarTodo(grillaProductos, cardHTML);
                         }else{
-                        fetch('./js/elements/products.json')
+                        fetch('https://raw.githubusercontent.com/lucaslp87/paseyro/main/js/elements/products.json')
                             .then ((response)=>response.json())
                             .then ((data)=>{
                                 
