@@ -36,8 +36,37 @@
         if (nombre in objeto){
             elemento.innerHTML= objeto[nombre];           
         }
-    }
+    }   
 
+    function cargarTodo(grilla, card){
+        fetch('./js/elements/products.json')
+                .then ((response)=>response.json())
+                .then ((data)=>{
+                    data.forEach(producto => {
+                        card=`
+                        <div class="col">
+                        <div class="card text-center">
+                            <div class="row">
+                                <div class="col-4 col-md-12">
+                                    <img src= "${producto.imagen}" class="card-img-top " alt="${producto.nombre}">
+                                </div>
+                                <div class="col-8 col-md-12">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-break">${producto.nombre}</h5>
+                                        <p class="card-text">${producto.descripcion}</p>
+                                        <b>$${producto.precio}</b>
+                                        <hr>
+                                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        `;
+                        grilla.innerHTML += card;
+                        });
+                })
+    }
   
     btnsNavMain.forEach(el => {
         el.addEventListener('click', (event)=>{
@@ -48,31 +77,49 @@
             if(event.target.name==='shop'){
 
                 const grillaProductos = document.querySelector('.grilla-productos');
+                const btnsNavShop = document.querySelectorAll('.filtros .nav-link');
+                let cardHTML=``;
 
-                fetch('./js/elements/products.json')
-                .then ((response)=>response.json())
-                .then ((data)=>{
-                    data.forEach(producto => {
-                        const cardHTML =`
-                            <div class="card">
-                            <img src= "${producto.imagen}" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">${producto.nombre}</h5>
-                            <p class="card-text">${producto.descripcion}</p>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                            </div>
-                        </div>    
-                        `;
-                        grillaProductos.innerHTML += cardHTML;
-                        });
-                })
-
-                const btnsNavShop = document.querySelectorAll('.filtros .nav-link');    
+                cargarTodo(grillaProductos, cardHTML);
 
                 btnsNavShop.forEach(opcion => {
-                    opcion.addEventListener('click', ()=>{
+                    opcion.addEventListener('click', (e)=>{
+                        grillaProductos.innerHTML='';
                         desactivarBoton(btnsNavShop);
-                        cambiarDOMSegunNav(opcion, grillaProductos, htmlsShop);
+                        if(e.target.name==='todo'){
+                            cargarTodo(grillaProductos, cardHTML);
+                        }else{
+                        fetch('./js/elements/products.json')
+                            .then ((response)=>response.json())
+                            .then ((data)=>{
+                                
+                                let productosFiltrados = data.filter(producto=>producto.categoria=== e.target.name);
+                                productosFiltrados.forEach(producto => {
+                                    cardHTML =`
+                                    <div class="col">
+                                    <div class="card text-center">
+                                        <div class="row">
+                                            <div class="col-4 col-md-12">
+                                                <img src= "${producto.imagen}" class="card-img-top " alt="${producto.nombre}">
+                                            </div>
+                                            <div class="col-8 col-md-12">
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-break">${producto.nombre}</h5>
+                                                    <p class="card-text">${producto.descripcion}</p>
+                                                    <b>$${producto.precio}</b>
+                                                    <hr>
+                                                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    `;
+                                    grillaProductos.innerHTML += cardHTML;
+                                    });
+                            })
+                        }
+                        
                     })
                 });
             }

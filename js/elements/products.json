@@ -100,7 +100,7 @@
         "nombre": "Yerba orgánica premium",
         "descripcion": "Yerba orgánica premium de la mejor calidad.",
         "precio": 400.00,
-        "imagen": "../img/yerba1.jpg",
+        "imagen": "../img/yerba.jpg",
         "categoria": "yerba"
     },
     {

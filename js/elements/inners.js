@@ -1,13 +1,13 @@
 export const shopHTML=`
 <nav class="navbar d-md-none bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Filtros</a>
+        <a class="navbar-brand ms-auto" href="#">Categorías</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Filtros</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Categorías</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -49,7 +49,7 @@ export const shopHTML=`
     <a class="nav-link text-dark" name ="yerba" href="#">Yerba</a>
 
 </nav>
-<div class="grilla-productos"></div>
+<div class="grilla-productos row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 overflow-x-hidden p-5"></div>
 `
 export const homeHTML=`
 <div class="container-fluid pt-3 mb-0 text-center"> 
